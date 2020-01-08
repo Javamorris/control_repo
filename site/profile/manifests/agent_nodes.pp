@@ -1,5 +1,5 @@
 class profile::agent_nodes {
    include dockeragent
-   dockeragent::node {'web.swann.com':}
-   dockeragent::node {'db.swann.com':}
+   dockeragent::node {'web.puppet.vm':}
+   dockeragent::node {'db.puppet.vm':}
 }
